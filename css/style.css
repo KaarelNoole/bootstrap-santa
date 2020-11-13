@@ -4,6 +4,10 @@
     --santa-green: #0A9F99;
 }
 
+body{
+    background-color: black;
+}
+
 .container-fluid{
     padding: 0;
 }
@@ -55,7 +59,7 @@ h1{
 
 #features{
     padding: 7% 15%;
-    background-color: #fff;
+    background-color: black;
 }
 
 .feature-box{
@@ -78,5 +82,24 @@ h1{
 
 .feature-box i:hover{
     color: var(--santa-green);
-
 }
+
+#testimonials{
+    background-color: var(--santa-red-alpha);
+    color: #fff;
+    text-align: center;
+}
+
+#testimonials h2{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#testimonials img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 2rem;
+}
+
