@@ -103,3 +103,24 @@ h1{
     margin: 2rem;
 }
 
+/*Press Section */
+.press{
+    background-color: var(--santa-red-alpha);
+    text-align: center;
+    padding: 3% auto;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 1.5rem;
+}
+
+#pricing{
+    background-color: #fff;
+    padding: 4rem;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 2rem;
+}
